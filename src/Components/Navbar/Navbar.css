@@ -1,0 +1,197 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    box-shadow: 0 1px 3px black;
+    align-items: center;
+    }
+
+.nav_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav_logo p {
+    color:#171717;
+    font-size: 38px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #413e3e;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.nav-menu hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: red;
+
+}
+
+.nav_login_cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav_login_cart button {
+    width: 157px;
+    height: 58px;
+    border: 1px solid grey;
+    border-radius: 55px;
+    font-size: 20px;
+    font-weight: 500;
+    color:#413e3e;
+    background: white;
+    cursor: pointer;
+}
+.nav_login_cart button:hover {
+    background: rgb(228, 243, 234);
+}
+.nav_login_cart button:active {
+    background: rgb(201, 247, 197);
+}
+
+.nav-cart-count {
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    width: 22px;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+    margin: -35px 0 0 -55px;
+    border-radius: 14px;
+    border: 0.5px solid;
+    background: rgb(239, 150, 24);
+    color: white;
+}
+
+.nav_login_cart img:hover {
+    background-color: rgb(225, 223, 223);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.nav-dropdown{
+      display: none;  
+}
+
+@media screen and (max-width: 1280px){
+    .navbar{
+        padding:12px 50px;
+    }
+    .nav_logo img {
+        width: 30px;
+    }
+    .nav_logo p{
+        font-size: 12px;
+    }
+    .nav-menu{
+        gap: 30px;
+    }
+    .nav_login_cart{
+        gap: 30px;
+    }
+    .nav_login_cart button {
+        width: 120px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .nav-cart-count{
+        margin-left: -40px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width:1024px){
+    .navbar{
+        padding:12px 30px;
+    }
+    .nav-menu{
+        gap: 25px;
+        font-size: 14px;
+    }
+    .nav_login_cart button {
+        width: 180px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .nav-cart-count img {
+        width: 30px;
+    }
+    .nav-cart-count{
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media(max-width: 800px) {
+    .navbar {
+        padding: 10px 0px;
+    }
+    .nav-dropdown{
+        display: block;
+        width: 40px;
+        rotate: -90deg;
+        transition: 0.5s;
+    }
+    .nav-menu{
+        display: none;
+        height: 80px;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        justify-content: center;
+        top: 60px;
+    }
+    .nav-menu-visible{
+        display: flex;
+    }
+
+    /*читается так: если в классе nav-dropdown есть еще класс open */
+    .nav-dropdown.open {  
+        transform: rotate(90deg);
+    }
+}
+
+@media(max-width:500px){
+    .navbar{
+        padding: 8px 0px;
+        gap: 0;
+    }
+    .nav-logo{
+        transform: scale(0.8);
+    }
+    .nav-menu {
+        height: 70px;
+        top: 50px;
+    }
+    .nav-login-cart {
+        transform: scale(0.8);
+    }
+}
