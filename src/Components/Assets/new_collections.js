@@ -1,66 +1,69 @@
-import p1_img from "./product_12.png";
-import p2_img from "./product_35.png";
-import p3_img from "./product_14.png";
-import p4_img from "./product_8.png";
-import p5_img from "./product_15.png";
-import p6_img from "./product_2.png";
-import p7_img from "./product_17.png";
-import p8_img from "./product_28.png";
+import w1 from './w1.jpg'
+import w4 from './w4.jpg'
+import w5 from './w5.jpg'
+import w7 from './w6.jpg'
+
+
+import m2 from './m2.jpg'
+import m5 from './m5.jpg'
+import m1 from './m1.jpg'
+import m8 from './m8.jpg'
+
 
 let new_collections = [
   {
-    id: 12,
+    id: 4,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image: p1_img,
+    image: w4,
     new_price: 50.0,
     old_price: 80.5,
   },
   {
-    id: 35,
+    id: 9,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    image: p2_img,
+    image: m1,
     new_price: 85.0,
     old_price: 120.5,
   },
   {
-    id: 14,
+    id: 6,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    image: p3_img,
+    image: w7,
     new_price: 60.0,
     old_price: 100.5,
   },
   {
-    id: 8,
+    id: 13,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image: p4_img,
+    image: m5,
     new_price: 100.0,
     old_price: 150.0,
   },
   {
-    id: 15,
+    id: 5,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    image: p5_img,
+    image: w5,
     new_price: 50.0,
     old_price: 80.5,
   },
   {
-    id: 2,
+    id: 10,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image: p6_img,
+    image: m2,
     new_price: 85.0,
     old_price: 120.5,
   },
   {
-    id: 17,
+    id: 1,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    image: p7_img,
+    image: w1,
     new_price: 60.0,
     old_price: 100.5,
   },
   {
-    id: 28,
+    id: 16,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    image: p8_img,
+    image: m8,
     new_price: 100.0,
     old_price: 150.0,
   },

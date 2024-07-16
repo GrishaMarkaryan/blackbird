@@ -1,13 +1,13 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import './Popular.css'
 import data_product from '../Assets/data'
 import Item from '../Item/item'
 
 
-const Popular = () => {
+const Popular = forwardRef((props, ref) => {
   return (
-    <div className='popular'>
-        <h1> POPULAR IN WOMEN </h1>
+    <div className='popular' ref={ref}>
+        <h1 className='popular-in-women'> POPULAR IN WOMEN </h1>
         <hr/>
         <div className="popular-item">
             {data_product.map((item, i) => {
@@ -17,6 +17,6 @@ const Popular = () => {
         </div>
     </div>
   )
-}
+})
 
 export default Popular

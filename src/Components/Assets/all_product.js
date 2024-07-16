@@ -107,7 +107,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 14,
+    id: 10,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: m2,
@@ -115,7 +115,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 15,
+    id: 11,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: m3,
@@ -124,7 +124,7 @@ let all_product = [
   },
 
   {
-    id: 26,
+    id: 12,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: m4,
@@ -132,7 +132,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 27,
+    id: 13,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: m5,
@@ -140,7 +140,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 29,
+    id: 14,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: m6,
@@ -148,7 +148,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 30,
+    id: 15,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: m7,
@@ -156,7 +156,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 31,
+    id: 16,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
     image: m8,
@@ -165,7 +165,7 @@ let all_product = [
   },
 
   {
-    id: 35,
+    id: 17,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: k1,
@@ -173,7 +173,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 36,
+    id: 18,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: k2,
@@ -181,7 +181,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 37,
+    id: 19,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: k3,
@@ -189,7 +189,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 65,
+    id: 20,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: k4,
@@ -197,7 +197,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 45,
+    id: 21,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: k5,
@@ -205,7 +205,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 355,
+    id: 22,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: k6,
@@ -213,7 +213,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 3555,
+    id: 23,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: k7,
@@ -221,7 +221,7 @@ let all_product = [
     old_price: 120.5,
   },
   {
-    id: 32,
+    id: 24,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kid",
     image: k8,

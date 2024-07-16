@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Hero.css'
-import arrow_icon from '../Assets/arrow.png'
+import smoothscroll from 'smoothscroll-polyfill'
 import hero_image from '../Assets/hero_image.png'
 
-const Hero = () => {
+const Hero = ({targetRef}) => {
+
+    function scrollTo () {
+        targetRef.current && targetRef.current.scrollIntoView({behavior: 'smooth'})
+    }
+
+    useEffect (()=>{
+        smoothscroll.polyfill()
+    }, [])
+
   return (
     <div className='hero'>
         <div className="hero-left">
@@ -14,18 +23,17 @@ const Hero = () => {
                 <p> BRAVE </p>
                 <p> BLACKBIRD </p>
             </div>
-            <div className="hero-latest-btn">
-                <div> View latest collections </div>
-                <img src={arrow_icon} alt=''/>
+            <div className="hero-latest-btn" onClick={scrollTo}>
+                View latest collections 
             </div>
         </div>
 
         <div className="hero-right">
             <img src={hero_image} alt=''/>
-        </div>
+        </div>  
+        <div ref={targetRef}></div>
         
-      
-        
+
     </div>
   )
 }

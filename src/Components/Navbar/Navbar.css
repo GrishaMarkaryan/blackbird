@@ -4,7 +4,11 @@
     padding: 15px;
     box-shadow: 0 1px 3px black;
     align-items: center;
-    }
+}
+
+.nav {
+    text-decoration: none;
+}
 
 .nav_logo {
     display: flex;
@@ -20,8 +24,7 @@
     color:#171717;
     font-size: 38px;
     font-weight: 600;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 .nav-menu {

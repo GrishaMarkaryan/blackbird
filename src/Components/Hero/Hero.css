@@ -49,6 +49,9 @@
     font-weight: 500;
     padding: 0px 10px;
 }
+.hero-latest-btn :hover {
+    cursor: pointer;
+}
 
 .hero-right {
     flex: 1;
