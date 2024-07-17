@@ -49,6 +49,7 @@
 @media(max-width:1024px){
     .item{
         width: 170px;
+        height: 400px;
         font-size: 13px;
     }
     .item img{
@@ -61,6 +62,7 @@
 @media(max-width:800px){
     .item{
         width: 120px;
+        height: 350px;
         font-size: 12px;
     }
     .item img{
@@ -74,6 +76,7 @@
 @media(max-width:500px){
     .item{
         width: 160px;
+        height: 300px;
     }
     .item img{
         width: 120\6px;

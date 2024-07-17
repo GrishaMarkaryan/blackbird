@@ -140,7 +140,7 @@
         font-size: 14px;
     }
     .nav_login_cart button {
-        width: 180px;
+        width: 120px;
         height: 35px;
         font-size: 14px;
     }
@@ -168,6 +168,7 @@
         height: 80px;
         position: absolute;
         width: 100%;
+        padding: 0%;
         background-color: white;
         justify-content: center;
         top: 60px;
@@ -194,7 +195,8 @@
         height: 70px;
         top: 50px;
     }
-    .nav-login-cart {
+    .nav_login_cart {
         transform: scale(0.8);
     }
+   
 }

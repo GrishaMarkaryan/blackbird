@@ -30,9 +30,7 @@ const Hero = ({targetRef}) => {
 
         <div className="hero-right">
             <img src={hero_image} alt=''/>
-        </div>  
-        <div ref={targetRef}></div>
-        
+        </div>          
 
     </div>
   )

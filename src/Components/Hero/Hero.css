@@ -68,7 +68,7 @@
         font-size: 22px;
     }
     .hero-left p{
-        font-size: 60px;
+        font-size: 90px;
     }
     .hero-hand-icon img {
         width: 80px;
@@ -85,6 +85,9 @@
     }
 }
 @media(max-width:1024px){
+    .hero{
+        height: 800px;
+    }
     .hero-left{
        padding-left: 80px; 
     }
@@ -92,7 +95,7 @@
         font-size: 20px;
     }
     .hero-left p{
-        font-size: 50px;
+        font-size: 70px;
     }
     .hero-hand-icon img {
         width: 65px;
@@ -108,14 +111,18 @@
 }
 
 @media(max-width:800px){
+   
     .hero-left{
        padding-left: 30px; 
+    }
+    .hero-right{
+        display: none;
     }
     .hero-left h2{
         font-size: 16px;
     }
     .hero-left p{
-        font-size: 40px;
+        font-size: 80px;
     }
     .hero-hand-icon img {
         width: 50px;
@@ -132,18 +139,11 @@
 @media(max-width:500px){
     .hero{
         flex-direction: column;
+        height: 500px;
     }
-    .hero-right{
-        display: none;
-    }
-    .hero-left h2{
-        font-size: 18px;
-    }
+   
     .hero-left p{
         font-size: 50px;
-    }
-    .hero-hand-icon img {
-        width: 55px;
     }
     .hero-latest-btn {
         width: 200px;
