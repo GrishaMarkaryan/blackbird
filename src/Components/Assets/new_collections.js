@@ -1,7 +1,7 @@
 import w1 from './w1.jpg'
 import w4 from './w4.jpg'
 import w5 from './w5.jpg'
-import w7 from './w6.jpg'
+import w6 from './w6.jpg'
 
 
 import m2 from './m2.jpg'
@@ -13,59 +13,59 @@ import m8 from './m8.jpg'
 let new_collections = [
   {
     id: 4,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Jacket",
     image: w4,
-    new_price: 50.0,
-    old_price: 80.5,
+    new_price: 90.0,
+    old_price: 120.5,
   },
   {
     id: 9,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "T-shirt in dark blue",
     image: m1,
-    new_price: 85.0,
+    new_price: 55.0,
     old_price: 120.5,
   },
   {
     id: 6,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    image: w7,
-    new_price: 60.0,
-    old_price: 100.5,
-  },
+    name: "Swimsuit in black and white",
+    image: w6,
+    new_price: 85.0,
+    old_price: 120.5,
+  },  
   {
     id: 13,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Oversize T-shirt in white",
     image: m5,
-    new_price: 100.0,
-    old_price: 150.0,
+    new_price: 60.0,
+    old_price: 120.5,
   },
   {
     id: 5,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Dress in black and white",
     image: w5,
-    new_price: 50.0,
-    old_price: 80.5,
-  },
+    new_price: 70.0,
+    old_price: 120.5,
+  },  
   {
     id: 10,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "T-shirt in light blue",
     image: m2,
-    new_price: 85.0,
+    new_price: 60.0,
     old_price: 120.5,
   },
   {
     id: 1,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "White dress",
     image: w1,
-    new_price: 60.0,
-    old_price: 100.5,
+    new_price: 100.0,
+    old_price: 120.5,
   },
   {
     id: 16,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    name: "Green sweatshirt",
     image: m8,
-    new_price: 100.0,
-    old_price: 150.0,
+    new_price: 110.0,
+    old_price: 120.5,
   },
 ];
 

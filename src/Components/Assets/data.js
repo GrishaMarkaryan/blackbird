@@ -6,32 +6,33 @@ import w8 from './w8.jpg'
 let data_product = [
   {
     id:2,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name:"White jacket",
     image: w2,
-    new_price:50.00,
-    old_price:80.50,
-  },
-  {
-    id: 3,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image: w3,
-    new_price:85.00,
-    old_price:120.50,
-  },
-  {
-    id: 5,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image: w5,
-    new_price:60.00,
+    new_price:80.00,
     old_price:100.50,
   },
   {
-    id: 8,
-    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image: w8,
-    new_price:100.00,
-    old_price:150.00,
+    id: 3,
+    name: "Black top",
+    image: w3,
+    new_price: 85.0,
+    old_price: 120.5,
   },
+  {
+    id: 5,
+    name: "Dress in black and white",
+    image: w5,
+    new_price: 70.0,
+    old_price: 120.5,
+  },  
+  {
+    id: 8,
+    name: "Dress in dark red",
+    image: w8,
+    new_price: 100.0,
+    old_price: 120.5,
+  },
+  
 ];
 
 export default data_product;

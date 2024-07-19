@@ -9,7 +9,7 @@ const DescriptionBox = () => {
             <div className='descriptionbox-nav-box fade'> Reviews (122) </div>
         </div>
         <div className="descriptionbox-description">
-            <p> An e-commerce website allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service. </p>
+            <p> BLACKBIRD is a contemporary clothing brand known for its minimalist designs and high-quality materials. The brand focuses on creating timeless, versatile pieces that blend modern aesthetics with classic styles, catering to fashion-forward individuals who value both style and substance. </p>
         </div>
     </div>
   )
