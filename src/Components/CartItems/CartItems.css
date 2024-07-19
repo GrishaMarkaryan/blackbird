@@ -79,7 +79,8 @@
     color: #555;
 }
 .cartitems-promobox {
-    width: 504px;
+    display: flex;
+    width: 500px;
     border-radius: 20px;
     margin-top: 15px;
     padding-left: 20px;
